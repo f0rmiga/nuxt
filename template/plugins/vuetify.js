@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import Vue from 'vue'
 {{#alacarte}}
 import {
