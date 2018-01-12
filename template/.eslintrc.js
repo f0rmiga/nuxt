@@ -11,6 +11,21 @@ module.exports = {
     'html'
   ],
   // add your custom rules here
-  rules: {},
+  rules: {
+    'max-len': ['warn', 240],
+    'no-bitwise': 'off',
+    'comma-dangle': 'off',
+    'no-param-reassign': 'off',
+    'no-plusplus': 'off',
+    'import/extensions': ['error', 'always', {
+      js: 'never'
+    }],
+    'import/no-extraneous-dependencies': ['error', {
+      optionalDependencies: ['test/unit/index.js']
+    }],
+    'import/prefer-default-export': 'off',
+    'no-alert': 'off',
+    'no-mixed-operators': 'off'
+  },
   globals: {}
 }
