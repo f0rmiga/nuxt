@@ -9,8 +9,8 @@ Live demo: http://nuxt-vuetify-starter.surge.sh/ (created with `nuxt generate`)
 This is a project template for [vue-cli](https://github.com/vuejs/vue-cli).
 
 ``` bash
-$ vue init vuetifyjs/nuxt my-project  
-$ cd my-project                     
+$ vue init f0rmiga/nuxt my-project  
+$ cd my-project
 # install dependencies
 $ npm install # Or yarn install
 ```
