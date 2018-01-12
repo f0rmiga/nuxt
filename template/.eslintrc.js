@@ -10,6 +10,20 @@ module.exports = {
   plugins: [
     'html'
   ],
+  settings: {
+    'import/resolver': {
+      webpack: {
+        config: {
+          resolve: {
+            extensions: ['.js', '.vue', '.json'],
+            alias: {
+              '~': __dirname
+            }
+          }
+        }
+      }
+    }
+  },
   // add your custom rules here
   rules: {
     'max-len': ['warn', 240],
